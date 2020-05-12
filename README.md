@@ -7,6 +7,7 @@ To Do:
 - Linear time
 - Quadratic time 
 - Logarithimic time (what a word to try to remember how to spell amirite?)
+- Quasilinear time (same)
 - And the rest!
 
 ![](https://media.giphy.com/media/3orieMlrdm4bxzP3jy/giphy.gif)
