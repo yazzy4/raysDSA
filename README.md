@@ -1,8 +1,8 @@
-# raysDSA
-## Ray Wenderlich DSA Review for upcoming job interviews!
+# **raysDSA**
+###### Ray Wenderlich DSA Review for upcoming job interviews!
 
-# Day 1 
-## Big O! - Taking it back to the basics
+# **Day 1** 
+###### Big O! - Taking it back to the basics
 
 ######
 To Do: 
