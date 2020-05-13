@@ -63,6 +63,51 @@ This function is simlar to the former, but with a nested loop. This means that t
 
 
 #### Logarithimic Time - O(log n)
+Logariththmic time is where we begin to deviate for the patterns set by contant and linear time. In the previous time complexities, there have been examples of the function considering each element in the array. Writing a function in logarithmic times means that a subset of data is already assumed. In other words if we were trying to find out if an array comntains a middle element or a certain number, half of the work is already done. Nice when that works out right?
+
+For example:
+
+```swift
+let numbers = [2, 4, 6, 17, 19, 22, 87, 91, 104]
+
+func naiveContains(value: Int, in array: [Int]) -> Bool{
+    for element in array {
+        if element == value {
+            return true
+        }
+    }
+    return false
+}
+```
+In this function, a for loop is used to check every element in the already sorted array. Only after each value is checked is the number we are searching for confirmed to be true or false. This gives a run time of O(n). In total, it runs 9 times.
+
+
+```swift
+func middleElement(value: Int, in array: [Int]) -> Bool{
+    guard !array.isEmpty else {return false}
+    let middleIndex = array.count / 2
+
+    if value <= array[middleIndex] {
+    for index in 0...middleIndex {
+        if array[index] == value {
+            return true
+            }
+        }
+    } else {
+        for index in middleIndex..<array.count {
+            if array[index] == value {
+                return true
+            }
+        }
+    }
+    return false
+}
+```
+While this function seems more involved than the first, it actually cuts the run time in half. The function takes in a ```value ```of ints and that is the value that will used to determine if the value does exist in the other parameter of the function ```array``` 
+
+Next, so as to not waste any runtime at all, we then ```guard``` against the array to determine that it is not empty. It's not so on we go to set a variable ```middleIndex``` that divides the array in two and presumably at the middle index. The first algorithim checks the middle value to how in compares to the desired value. If the middle value is greater than the desired value, the algorithim won't bother checking the right side of the array because it is sorted and the values on the right are higher
+
+On the other side, if the middle value is smaller than the desired value its won't check the the left side of the array because the values are smaller. 
 
 
 #### Quasilinear Time - O(n log n)
