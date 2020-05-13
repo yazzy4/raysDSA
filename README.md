@@ -29,7 +29,7 @@ func checkFirst(names:[String]){
     }
 }
 ```
-
+This function creates a new variable named ```swift first ``` and sets its value to check the first name in the array of strings. When it is called and takes an input of an array of strings, it will therefore call only the first element in the array, otherwise no name at all. In this case, no matter how many names are in the array its will always return the first element. Because the output doesn't change based on the size, this is called constant time or O(1)
 
 #### Linear Time - O(n)
 
