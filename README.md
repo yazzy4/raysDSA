@@ -111,8 +111,10 @@ On the other side, if the middle value is smaller than the desired value its won
 
 
 
-## Day 2 Arrays, Dictionaries, Sets - The standard crew
+## Day 2 Stacks - Pancakes, plates and more!
 
 To Do: 
-- The stuff up there ^
+- Implement a stack 
+- Reverse an array using a stack 
+- Balance parentheses 
 
