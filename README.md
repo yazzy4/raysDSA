@@ -107,9 +107,11 @@ While this function seems more involved than the first, it actually cuts the run
 
 Next, so as to not waste any runtime at all, we then ```guard``` against the array to determine that it is not empty. It's not so on we go to set a variable ```middleIndex``` that divides the array in two and presumably at the middle index. The first algorithim checks the middle value to how in compares to the desired value. If the middle value is greater than the desired value, the algorithim won't bother checking the right side of the array because it is sorted and the values on the right are higher
 
-On the other side, if the middle value is smaller than the desired value its won't check the the left side of the array because the values are smaller. 
+On the other side, if the middle value is smaller than the desired value its won't check the the left side of the array because the values are smaller. It is only checking half the array at a given time.
 
 
-#### Quasilinear Time - O(n log n)
 
+## Day 2 Arrays, Dictionaries, Sets - The standard crew
 
+To Do: 
+- The stuff up there ^
