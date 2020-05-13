@@ -16,7 +16,7 @@ To Do:
 Involves the measure of time used to run an algorithm as the input size increases
 
 #### Constant Time - O(1)
-Has the same running time regardless of the size of the input
+Constant time has the same running time regardless of the size of the input
 
 For example:
 
@@ -29,11 +29,26 @@ func checkFirst(names:[String]){
     }
 }
 ```
-This function creates a new variable named ```swift first ``` and sets its value to check the first name in the array of strings. When it is called and takes an input of an array of strings, it will therefore call only the first element in the array, otherwise no name at all. In this case, no matter how many names are in the array its will always return the first element. Because the output doesn't change based on the size, this is called constant time or O(1)
+This function creates a new variable named ``` first ``` and sets its value to check the first name in the array of strings. When it is called and takes an input of an array of strings, it will therefore call only the first element in the array, otherwise no name at all. In this case, no matter how many names are in the array its will always return the first element. Because the output doesn't change based on the size, this is called constant time or O(1)
 
 #### Linear Time - O(n)
+Linear time occurs when the input size increases at the same rate as the running time.
+
+For example
+
+```swift 
+func printNames(names:[String]){
+    for name in names {
+        print(name)
+    }
+}
+```
+This function prints all the elements in the array and if another element is added to the that array the time complexity will my increased by the same amount of its input
+
 
 #### Quadratic Time - On^2
+
+
 
 #### Logarithimic Time - O(log n)
 
