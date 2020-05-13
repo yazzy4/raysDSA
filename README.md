@@ -18,15 +18,17 @@ Involves the measure of time used to run an algorithm as the input size increase
 #### Constant Time - O(1)
 Has the same running time regardless of the size of the input
 
-For Example:
+For example:
 
-   func checkFirst(names:[String]){
+```swift
+func checkFirst(names:[String]){
     if let first = names.first {
         print(first)
     } else {
         print("no names")
     }
 }
+```
 
 
 #### Linear Time - O(n)
