@@ -21,7 +21,7 @@ Constant time has the same running time regardless of the size of the input
 For example:
 
 ```swift
-func checkFirst(names:[String]){
+func checkFirst(names:[String]) {
     if let first = names.first {
         print(first)
     } else {
@@ -37,7 +37,7 @@ Linear time occurs when the input size increases at the same rate as the running
 For example
 
 ```swift 
-func printNames(names:[String]){
+func printNames(names:[String]) {
     for name in names {
         print(name)
     }
@@ -47,10 +47,23 @@ This function prints all the elements in the array and if another element is add
 
 
 #### Quadratic Time - On^2
+Quadratic time refers to an algorithm that takes time proportional to the square of its input size. Like inception...
 
+For example:
+```swift
+func printMoreNames(names: [String]) {
+    for _ in names{
+        for name in names {
+            print(name)
+        }
+    }
+}
+```
+This function is simlar to the former, but with a nested loop. This means that the function prints out names in the array for every name in the array. In other words, if you had an array with 10 elements, it would print 10 elements for each of those elements. **Inception.....** but also just really time consuming and space consuming algorithm.
 
 
 #### Logarithimic Time - O(log n)
+
 
 #### Quasilinear Time - O(n log n)
 
