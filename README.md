@@ -122,19 +122,19 @@ To Do:
 
 The main goal of builing a stack enforce how you access your data. When thinking of building stacks it is not dissimilar building a stack of pancakes. It's all not dissimilar to eating said stack of pancakes in that, if you are fixing a plate for yourself you'll likely grab one from the top.
 
--**LIFO**
+**LIFO**
 Stacks operate on the above and basic principle or data structure. **L**ast **I**n **F**irst **O**ut. This cat gets it!
 
 ![](https://media.giphy.com/media/NEelVYGngdrqg/giphy.gif)
 
- -**push()**
-Adds and element to the top of a stack
+ **push()**
+  -Adds and element to the top of a stack
 
- -**pop()**
-Removes the top element of the stack
+ **pop()**
+  -Removes the top element of the stack
 
- -**peek()**
-Takes a look at the top element without mutating its contents
+ **peek()**
+  -Takes a look at the top element without mutating its contents
 
 
 
