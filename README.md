@@ -125,4 +125,4 @@ The main goal of builing a stack enforce how you access your data. When thinking
 
 ![](https://media.giphy.com/media/aOqVDcqUQt1BK/giphy.gif)
 
-![](http://i.imgur.com/OUkLi.gif)
+![](https://media.giphy.com/media/aOqVDcqUQt1BK/giphy.gif)
