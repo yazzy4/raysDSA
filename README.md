@@ -123,6 +123,4 @@ To Do:
 The main goal of builing a stack enforce how you access your data. When thinking of building stacks it is not dissimilar building a stack of pancakes. It's all not dissimilar to eating said stack of pancakes in that, if you are fixing a plate for yourself you'll likely grab one from the top.
 
 
-![](https://media.giphy.com/media/aOqVDcqUQt1BK/giphy.gif)
-
-![](https://media.giphy.com/media/aOqVDcqUQt1BK/giphy.gif)
+![](https://media.giphy.com/media/FgNmKgaqixS3m/giphy.gif)
