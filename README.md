@@ -1,7 +1,7 @@
 # raysDSA
  Ray Wenderlich DSA Review for upcoming job interviews and general practice
 
-## Day 1 Big O! - Taking it back to the basics 
+## Big O! - Taking it back to the basics 
 To Do: 
 - Constant time 
 - Linear time
@@ -111,7 +111,7 @@ On the other side, if the middle value is smaller than the desired value its won
 
 
 
-## Day 2 Stacks - Pancakes, plates and more!
+## Stacks - Pancakes, plates and more!
 
 To Do: 
 - Implement a stack 
